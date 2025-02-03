@@ -1,0 +1,9 @@
+* CNN Miniproject
+
+https://www.kaggle.com/competitions/histopathologic-cancer-detection
+
+In this project we attempt to create a binary classifier that will take in small image patches that are a part of larger digital pathology scans, and will output 1 if metastatic cancer was found in that patch, or 0 otherwise.
+
+A positive label indicates that the center 32x32px region of a patch contains at least one pixel of tumor tissue. Tumor tissue in the outer region of the patch does not influence the label.
+
+The data provided is composed of 3 channel rgb images that are 96x96 pixels, and the training set size is around 220k images.
